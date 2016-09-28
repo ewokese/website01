@@ -2,7 +2,7 @@
 
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
 body {
-  background: #12151a;
+  background: #000000;
   font-family: 'Montserrat', sans-serif;
 }
 button {
@@ -14,7 +14,7 @@ button {
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: #000000;
+  background: #1c222a;
   border: 0;
   line-height: 40px;
   padding: 0px 40px;
