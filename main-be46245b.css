@@ -1,1 +1,83 @@
 *{box-sizing:border-box}body,html{background-color:#000;color:#fff;font-family:Helvetica Neue,Helvetica,sans-serif;font-style:normal;font-weight:100;font-size:inherit;padding:0;margin:0}a{color:#fff;-webkit-transition:all .4s cubic-bezier(0,1.115,.415,.975);transition:all .4s cubic-bezier(0,1.115,.415,.975)}a,a:hover{text-decoration:none}a:hover{color:#c6fdea}ul{margin:0;padding:0;list-style:none}.content{margin:80px 40px}h1{font-weight:500;line-height:1.4;margin:0}#current-work{margin-top:100px}#current-work li{color:#333;line-height:1.8;font-weight:500;text-transform:uppercase;font-size:12px;letter-spacing:2px}#current-work li a{color:#777}@media (max-width:600px){h1{font-size:22px}.content{margin:70px 20px}}
+
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+body {
+  background: #12151a;
+  font-family: 'Montserrat', sans-serif;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #1c222a;
+  border: 0;
+  line-height: 40px;
+  padding: 0px 40px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+}
+button:hover:after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  left: -200px;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  background-image: -webkit-linear-gradient(left, transparent, rgba(255,255,255,0.06), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(255,255,255,0.06), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(255,255,255,0.06), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(255,255,255,0.06), transparent);
+  background-image: linear-gradient(to right, transparent, rgba(255,255,255,0.06), transparent);
+  height: 50px;
+  -webkit-animation: shine 0.7s ease;
+  -moz-animation: shine 0.7s ease;
+  -o-animation: shine 0.7s ease;
+  -ms-animation: shine 0.7s ease;
+  animation: shine 0.7s ease;
+}
+@-moz-keyframes shine {
+  100% {
+    left: 200px;
+  }
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 200px;
+  }
+}
+@-o-keyframes shine {
+  100% {
+    left: 200px;
+  }
+}
+@-ms-keyframes shine {
+  100% {
+    left: 200px;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 200px;
+  }
+}
