@@ -27,7 +27,7 @@ a:active{
 h3{
     color:#fff;
     margin:20px;
-    text-align:center;
+    text-align:right;
     text-transform:uppercase;
 }
 /* General button styles */
@@ -64,7 +64,7 @@ h3{
 }
 .btn-3d{
     display:block;
-    background:#5cbcf6;
+    background:#ffffff;
     outline:1px solid transparent;
     transform-style:preserve-3d;
 }
