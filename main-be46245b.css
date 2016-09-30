@@ -23,13 +23,7 @@ a:active{
     padding:6em 3em;
     text-align:center;
     color:#737373;
-}
-h3{
-    color:#737373;
-    margin:20px;
-    text-align:right;
-    text-transform:uppercase;
-}
+    
 /* General button styles */
 .btn{
     border:none;
