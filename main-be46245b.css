@@ -69,7 +69,7 @@ h3{
     transform-style:preserve-3d;
 }
 .btn-3d:active{
-    background:#55b7f3;   
+    background:#000000;   
 }
 .btn-3da:after{
     width:100%;
