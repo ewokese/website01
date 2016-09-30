@@ -6,6 +6,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="stylesheet" href="main-be46245b.css"/>
+
+<style>
+.container {
+    position: relative;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+</style>
   
 </head>
 <body>
@@ -56,15 +70,16 @@
         <li>Programming</li>
         </ul>
         <br>
+<div class="container">
   <section class="3d-buttons">
     
     <p class="btn_perspective">
-      <button class="btn btn-3d btn-3dd">Back
+      <button class="btn btn-3d btn-3dd" class="bottomright">Back
       </button>
     </p>
 
   </section>
-
+</div>
         <br>
         <p>Updated 9/26/16</p>
   <ul>
@@ -79,18 +94,6 @@ G.parentNode.insertBefore(o,G)}(window,document,'ga','script');
 
 ga('create','UA-20355044-1');
 ga('send','pageview');
-</script>
-
-  <script type="text/javascript">
-var password = "please";
-var x = prompt("Enter in the password "," ");
-if (x.toLowerCase() == password) {
-  alert("Come right in \n \n You've entered in the right password");
-  window.location = "index.htm";
-}
-else {
-  window.location = "bad.htm";
-}
 </script>
 
 </body>
