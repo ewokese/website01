@@ -6,14 +6,7 @@
     box-sizing:border-box;
 }
 
-a{
-    color:#000000;
-    text-decoration:none;
-}
-a:hover,
-a:active{
-    color:#000000;   
-}
+
 .container{
     height:100%;
     position:relative;
@@ -26,6 +19,12 @@ a:active{
     
 }
 
+h3{
+    color:#737373;
+    margin:20px;
+    text-align:right;
+    text-transform:uppercase;
+}
     
 /* General button styles */
 .btn{
