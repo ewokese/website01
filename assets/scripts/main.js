@@ -11562,7 +11562,7 @@ var _format = _interopRequireDefault(require("date-fns/format"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var TZ = 'America/New_York'; // always show time in BK, NY
+var TZ = 'America/WASHINGTON'; // always show time in SEA, WA
 
 function updateTime(parent) {
   if (!parent) return; // why two nows?
@@ -11593,7 +11593,7 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-var WEATHER_API = 'https://api.openweathermap.org/data/2.5/weather?q=Brooklyn&units=imperial';
+var WEATHER_API = 'https://api.openweathermap.org/data/2.5/weather?q=Seattle&units=imperial';
 var API_KEY = '3c5202dd198621329b38086b44fe263f';
 var DEGREE_HTML = '&deg; F';
 var WEATHER_EMOJIS = {
@@ -11661,7 +11661,7 @@ function _setTemperature() {
           case 12:
             div = document.createElement('div');
             div.className = 'H__temp';
-            div.innerHTML = 'BROOKLYN ' + Math.round(temp) + DEGREE_HTML;
+            div.innerHTML = 'SEATTLE ' + Math.round(temp) + DEGREE_HTML;
             weather = weatherData.data.weather;
 
             if (weather && weather.length) {
